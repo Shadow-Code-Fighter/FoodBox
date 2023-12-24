@@ -1,0 +1,5 @@
+-	Create a User-Friendly Food Ordering Application.
+-	Designed a specific module for tiffin service within the application.
+-	Users can conveniently order meals for breakfast, lunch and dinner.
+-	Users have the flexibility to select their preferred delivery times.
+-	In this app there is a feature that enables users to order from local Dhaba’s and Tiffin services
