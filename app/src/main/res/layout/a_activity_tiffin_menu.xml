@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFile.Tiffin.A_Tiffin_Menu"
+    android:background="@drawable/a_toolcolor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/transparent"
+            android:text="Breakfast (7:00 - 9:30)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/b_price"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Rs. "
+            android:textColorHint="@color/black"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Lunch (12:30 - 2:00)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/l_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:hint="Rs. "
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Dinner (7:00 - 9:00)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/d_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Rs. "
+            android:layout_gravity="center"
+            android:textColorHint="@color/black"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/tiffin_upd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/a_toolcolour2"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Update" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView"-->
+<!--            android:layout_width="342dp"-->
+<!--            android:layout_height="62dp" />-->
+    </LinearLayout>
+
+
+
+</LinearLayout>

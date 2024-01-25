@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/a_ic_foodbox"
+        android:label="FoodBox"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".A_Rating_dialog"
+            android:exported="false"
+            android:parentActivityName=".A_Rating_dialog" />
+        <activity
+            android:name=".AdminFile.A_GalleryAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFile.A_Gallery"
+            android:exported="false"
+            android:label="Gallery"
+            android:parentActivityName=".AdminFile.A_Gallery" />
+        <activity
+            android:name=".A_about"
+            android:exported="false"
+            android:label="About"
+            android:parentActivityName=".A_about" />
+        <activity
+            android:name=".AdminFile.Tiffin.A_Tiffin_Menu"
+            android:exported="false"
+            android:label="Update Tiffin"
+            android:parentActivityName=".AdminFile.Admin.A_Admin_Dashboard" />
+        <activity
+            android:name=".AdminFile.Account.A_IntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFile.Tiffin.A_Tiffin"
+            android:exported="false"
+            android:label="Tiffin"
+            android:parentActivityName=".AdminFile.Admin.A_Admin_Dashboard" />
+        <activity
+            android:name=".AdminFile.Admin.A_Dhaba"
+            android:exported="true"
+            android:label="DHABA"
+            android:parentActivityName=".AdminFile.Admin.A_Dhaba" />
+        <activity
+            android:name=".AdminFile.Admin.A_forgot_pswd"
+            android:exported="true" />
+        <activity
+            android:name=".AdminFile.Admin.A_admin_register"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".AdminFile.Admin.A_Admin_Dashboard"
+            android:exported="true"
+            android:label="𝐅𝐨𝐨𝐝𝐁𝐨𝐱" />
+        <activity
+            android:name=".AdminFile.Admin.A_Admin_Login"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".AdminFile.Admin.A_EditMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFile.Admin.A_AddMenu"
+            android:exported="false"
+            android:label="ADD FOOD"
+            android:parentActivityName=".AdminFile.Admin.A_Dhaba" />
+        <activity
+            android:name=".AdminFile.Admin.A_contact"
+            android:exported="false"
+            android:label="Help Contacts"
+            android:parentActivityName=".AdminFile.Admin.A_contact" /> <!-- android:theme="@style/Theme.Design.BottomSheetDialog" /> -->
+        <activity
+            android:name=".AdminFile.Admin.A_MainActivitySp"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".A_MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a_toolcolor"
+    tools:context=".A_about"
+    >
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:background="@drawable/amazed" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingStart="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic|bold"
+                android:text="This is an android application which is designed for seller to provide food online from Dhaba.
+It allows customers to order food online from a local dhaba and have it delivered to their doorstep.
+It can help the dhaba expand its customer base beyond its local area and reach new customers who may not have otherwise known about the dhaba.
+It can also provide a more convenient way for regular customers to order food, as they can do so easily and quickly from their smartphones.
+It can help the dhaba compete with larger food establishments and attract new customers in a highly competitive market."/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Objective"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic|bold"
+                android:text="
+•	The app should allow sellers to manage incoming orders, track order status, and communicate with customers in real-time.\n
+•	It help the customers to order authentic and freshly prepared food.\n
+•   Dhabas typically use fresh ingredients and cook in small batches, which can help to ensure that the food is of high quality and taste.\n
+•	The app should provide opportunities for sellers to promote their menus, specials, and discounts, and reach a wider audience through online marketing and advertising.\n
+•	The main objective of a seller food app is to facilitate the process of selling food products by providing a platform for food businesses to manage their menus, orders, and customer interactions in a more convenient and efficient manner. "/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

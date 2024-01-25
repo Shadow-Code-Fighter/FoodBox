@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:icon="@drawable/a_home"
+        android:id="@+id/menu" />
+
+    <item android:title="@string/orders"
+        android:icon="@drawable/a_order"
+        android:id="@+id/orders" />
+
+    <item android:title="@string/notifications"
+        android:icon="@drawable/a_notification"
+        android:id="@+id/notifications"/>
+    <item android:title="@string/me"
+        android:icon="@drawable/a_account"
+        android:id="@+id/me"/>
+</menu>
